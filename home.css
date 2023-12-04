@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+}
+
+body{
+    background-color: #d1d1d1;
+ 
+}
+
+span p{
+    margin-left: 1vw; 
+    cursor: pointer;
+    width: 4vw;
+    transition: all 200ms ease-in-out;
+   
+}
+
+
+span p:hover{
+    color: white;
+    transition: 400ms;
+}
+
+header h2{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 6vh;
+}
+
+header h2,h1{
+    color: #3d3d3d;
+}
+
+/* botoes */
+
+.backgroundbotoes{
+    margin-left: 30vw;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 5vh;
+    background-color: #3d3d3d;
+
+}
+
+.separar{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.botaoPalavras{
+    margin-top: 3vh;
+    padding: 1.5vh;
+    width: 6vw;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    background-color: #5d5d5d;
+    opacity: 60%;
+}
+
+.botaoPalavras:hover{
+    border-radius: 5px;
+    transition: 500ms;
+    background-color: #b0b0b0;
+    opacity: 100%;
+    
+    
+}
+
+/* modal */
+
+
+span img{
+    height: 2.5vh;
+    width: auto;
+    margin-left: 30vw;
+    cursor: pointer;
+    position: fixed;
+}
+
+.escondido{
+    display: none;
+}
+
+.prebloco{
+    display:flex;
+    justify-content: center;
+}
+
+.bloco{
+    margin-top: -36.5vh;
+    width: 40vw;
+    display: block;
+    border-radius: 15px;
+    background-color: #b0b0b0;
+    position: fixed;
+    transition: all 400ms ease-in-out;
+    box-shadow: 2px 3px 80px 20px #3d3d3d;
+}
+
+.bloco h2{
+    color: #4f4f4f;
+    margin-left: 1vw;
+
+}
+
+.bloco hr{
+    border:solid #4f4f4f 1px;
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+
+
+.bloco p{
+    color: #4f4f4f;
+    margin-top: 1vh;
+    padding-bottom: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.bloco:hover{
+    border-radius: 5px;
+    transition: 400ms;
+}
+
+
+/* texto */
+
+.botaoMeioTexto{
+    display: flex;
+    justify-content: center;
+}
+
+
+.botaoMeioTexto button{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding: 1.5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    background-color:#5d5d5d ;
+}
+
+.botaoMeioTexto button:hover{
+    border-radius: 5px;
+    transition: 500ms;
+    background-color: #b0b0b0;
+    color: #4f4f4f;
+    
+}
+
+.textoescondido{
+    display: none;
+}
+
+.blocoTexto{
+    display: block;
+    width: 40vw;
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    background-color: #b0b0b0;
+    box-shadow: 0px 20px 20px 0px #3d3d3d;
+    transition: all 400ms ease-in-out;
+}
+
+.blocoTexto p{
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: #4f4f4f;
+}
+
+.blocoTexto h2{
+    display: flex;
+    justify-content: center;   
+    margin-top: 1vh;
+    color: #4f4f4f;
+}
+
+.blocoTexto:hover{
+    border-radius: 5px;
+    transition: 400ms;
+}
